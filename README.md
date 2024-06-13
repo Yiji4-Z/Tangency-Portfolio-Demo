@@ -588,7 +588,8 @@ ax.annotate(f'Max Sharpe Ratio is {Max_Sharpe_psharpe.round(4)}', (Max_Sharpe_ps
 ---
 
 <font color = 'darkgrey'>
-&nbsp;&nbsp; Based on the statistics of the portfolio with equal weights and the portfolio with optimal weights, it is clear that the optimal weights produced a higher return average of 26.27%, a slightly lower risk 17.36%, and a sharpe ratio **1.225** which is 24%  higher than the portfolio with equal weights.
+    
+**&nbsp;&nbsp; Based on the statistics of the portfolio with equal weights and the portfolio with optimal weights, it is clear that the optimal weights produced a higher return average of 26.27%, a slightly lower risk 17.36%, and a sharpe ratio 1.225 which is 24%  higher than the portfolio with equal weights.**
 
 </font>
 
