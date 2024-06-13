@@ -75,19 +75,6 @@ STK_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -261,68 +248,7 @@ R_corr.style.background_gradient(cmap='GnBu')
 
 
 
-<style type="text/css">
-#T_9e4a1_row0_col0, #T_9e4a1_row1_col1, #T_9e4a1_row2_col2, #T_9e4a1_row3_col3, #T_9e4a1_row4_col4 {
-  background-color: #084081;
-  color: #f1f1f1;
-}
-#T_9e4a1_row0_col1 {
-  background-color: #f3fbed;
-  color: #000000;
-}
-#T_9e4a1_row0_col2, #T_9e4a1_row0_col4, #T_9e4a1_row2_col0, #T_9e4a1_row2_col1, #T_9e4a1_row2_col3 {
-  background-color: #f7fcf0;
-  color: #000000;
-}
-#T_9e4a1_row0_col3 {
-  background-color: #daf0d4;
-  color: #000000;
-}
-#T_9e4a1_row1_col0 {
-  background-color: #c9eac4;
-  color: #000000;
-}
-#T_9e4a1_row1_col2, #T_9e4a1_row3_col4 {
-  background-color: #cdebc6;
-  color: #000000;
-}
-#T_9e4a1_row1_col3 {
-  background-color: #87d1c0;
-  color: #000000;
-}
-#T_9e4a1_row1_col4 {
-  background-color: #bae4bd;
-  color: #000000;
-}
-#T_9e4a1_row2_col4, #T_9e4a1_row3_col2 {
-  background-color: #eef9e8;
-  color: #000000;
-}
-#T_9e4a1_row3_col0 {
-  background-color: #d3eecd;
-  color: #000000;
-}
-#T_9e4a1_row3_col1 {
-  background-color: #b5e2bb;
-  color: #000000;
-}
-#T_9e4a1_row4_col0 {
-  background-color: #f2faeb;
-  color: #000000;
-}
-#T_9e4a1_row4_col1 {
-  background-color: #e1f3dc;
-  color: #000000;
-}
-#T_9e4a1_row4_col2 {
-  background-color: #e9f7e3;
-  color: #000000;
-}
-#T_9e4a1_row4_col3 {
-  background-color: #d0ecc9;
-  color: #000000;
-}
-</style>
+
 <table id="T_9e4a1">
   <thead>
     <tr>
