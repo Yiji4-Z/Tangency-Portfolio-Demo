@@ -26,8 +26,8 @@
 
 ---
 
-* Imported various Python Packages 
-* Extracted Stock Data from Yahoo Finance</font>
+* Import various Python Packages 
+* Extract Stock Data from Yahoo Finance</font>
 
 
 ```python
