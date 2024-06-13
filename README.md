@@ -198,9 +198,7 @@ STK_df_return = STK_df_raw[((STK_df_raw.index >= '2016-06-01') & (STK_df_raw.ind
 ---
 * **$i$** is an abstract index for each stock, such that $`i \in \{1,2,3,4,5 \} `$, representing the 5 stocks in the portfolio
 * Average return For Each Stock:
-$$
-    \mu_i = E[R_i]
-$$
+$$\mu_i = E[R_i]$$
 
 * Standard Deviation (Risk)  For Each Stock:
 $$
