@@ -212,8 +212,9 @@ $$\sqrt{\sum_{i=1}^n \omega_i^2 \sigma_i^2 + \sum_{i\neq j} \omega_i \omega_j \s
 
 
 ```python
-#calculate mean, standard deviation and covariance
-R_mu = STK_df_return.mean() * 252
+#calculate mean, standard deviation and covariance, 252 stands for number of trading days
+Tdays = 252
+R_mu = STK_df_return.mean() * Tdays
 plot.bar(R_mu.index, R_mu, color = 'mediumaquamarine')
 plot.title("Bar Chart for Average Return")
 ```
@@ -233,7 +234,7 @@ plot.title("Bar Chart for Average Return")
 
 
 ```python
-R_std = STK_df_return.std() * np.sqrt(252)
+R_std = STK_df_return.std() * np.sqrt(Tdays)
 plot.bar(R_std.index, R_std, color = 'cadetblue')
 plot.title("Bar Chart for Magnitude of Risk")
 ```
@@ -670,8 +671,8 @@ ax.annotate(f'Max Sharpe Ratio is {Max_Sharpe_psharpe.round(4)}', (Max_Sharpe_ps
 
 ```python
 STK_df_test = STK_df_raw[(STK_df_raw.index >= '2023-06-01') & (STK_df_raw.index <= '2024-06-20')]
-tst_pm = STK_df_test.mean() * 252
-tst_pstd = STK_df_test.std() * np.sqrt(252)
+tst_pm = STK_df_test.mean() * Tdays
+tst_pstd = STK_df_test.std() * np.sqrt(Tdays)
 tst_corr = STK_df_test.corr()
 ```
 
