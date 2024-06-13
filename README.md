@@ -201,23 +201,14 @@ STK_df_return = STK_df_raw[((STK_df_raw.index >= '2016-06-01') & (STK_df_raw.ind
 $$\mu_i = E[R_i]$$
 
 * Standard Deviation (Risk)  For Each Stock:
-$$
+$$\sigma_i = \sqrt{E[(R_i - \mu_i)^2]}$$
 
-    \sigma_i = \sqrt{E[(R_i - \mu_i)^2]} 
-$$
 * Covariance & Correlation between Stocks: 
-$$
-    Cov[R_i, R_j] = E[(R_i-\mu_i)(R_j-\mu_j)]
-$$
-$$
-    Corr_{ij} (\rho_{ij}) = \frac{Cov[R_i, R_j]}{\sigma_i \sigma_j}
-$$
+$$Cov[R_i, R_j] = E[(R_i-\mu_i)(R_j-\mu_j)]$$
+$$Corr_{ij} (\rho_{ij}) = \frac{Cov[R_i, R_j]}{\sigma_i \sigma_j}$$
 
 * **Overall Standard Deviation (Risk) for the Portfolio with weights ($\omega_i$):**
-$$
-    \sqrt{\sum_{i=1}^n \omega_i^2 \sigma_i^2 + \sum_{i\neq j} \omega_i \omega_j \sigma_i \sigma_j \rho_{ij}}
-    
-$$
+$$\sqrt{\sum_{i=1}^n \omega_i^2 \sigma_i^2 + \sum_{i\neq j} \omega_i \omega_j \sigma_i \sigma_j \rho_{ij}}$$
 
 
 ```python
