@@ -23,7 +23,7 @@
 
 
 
-#### Data Processing<font color = "darkgrey"> 
+### Data Processing<font color = "darkgrey"> 
 
 ---
 
@@ -163,7 +163,7 @@ STK_df.head()
 
 
 
-#### Exploratory Data Analysis
+### Exploratory Data Analysis
 
 ---
 
@@ -201,7 +201,7 @@ STK_df_raw = np.log(STK_df/STK_df.shift(1)).dropna()
 STK_df_return = STK_df_raw[((STK_df_raw.index >= '2016-06-01') & (STK_df_raw.index < '2023-06-01')) ]
 ```
 
-##### Related Mathematics Formula
+#### Related Mathematics Formula
 
 ---
 * **$i$** is an abstract index for each stock, such that $i \in \{1,2,3,4,5 \} $, representing the 5 stocks in the portfolio
@@ -400,7 +400,7 @@ R_corr.style.background_gradient(cmap='GnBu')
 
 
 
-#### Risk & Return Relationship of Portfolio
+### Risk & Return Relationship of Portfolio
 
 ---
 
@@ -474,7 +474,7 @@ plot.colorbar(label="Sharpe Ratio with risk-free rate as 5%")
     
 
 
-#### Maximal Sharpe Ratio & Minimal Risk
+### Maximal Sharpe Ratio & Minimal Risk
 
 ---
 
@@ -587,7 +587,7 @@ ax.annotate(f'Max Sharpe Ratio is {Max_Sharpe_psharpe.round(4)}', (Max_Sharpe_ps
     
 
 
-#### Efficiency Frontier & Capital Market Line
+### Efficiency Frontier & Capital Market Line
 
 ---
 
@@ -676,7 +676,7 @@ ax.annotate(f'Max Sharpe Ratio is {Max_Sharpe_psharpe.round(4)}', (Max_Sharpe_ps
     
 
 
-#### Verification for Efficiency of Portfolio Construction 
+### Verification for Efficiency of Portfolio Construction 
 
 ---
 
@@ -750,7 +750,7 @@ ax.scatter(Opt_w[1],Opt_w[0],marker = '*', c='b',edgecolor = 'white', s = 300)
     
 
 
-#### Conclusion
+### Conclusion
 
 ---
 
