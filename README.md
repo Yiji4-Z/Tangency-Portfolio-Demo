@@ -1,6 +1,5 @@
 # Portfolio Management Project: Tangency Portfolio &  Capital Market Line
 
----
 
 &nbsp;&nbsp; This Project implemented Scipy Optimization Method to construct a tangency portfolio with stocks from Tesla, Apple, J.P. Morgan, Amazon, and Costco. It also includes the corresponding Capital Market Line with assumption of 5% One-Year Treasury Bill Rate. Efficiency of this portfolio construction is measured by Sharpe Ratio of the next year portfolio performance. The following is a brief outline of the project:
 <font color = "darkgrey">
