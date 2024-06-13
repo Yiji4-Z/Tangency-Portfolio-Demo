@@ -59,7 +59,6 @@ print(TSLA.shape, AAPL.shape, JPM.shape, AMZN.shape,COST.shape,)
 ```
 
     [*********************100%%**********************]  1 of 1 completed
-
     
     [*********************100%%**********************]  1 of 1 completed
     [*********************100%%**********************]  1 of 1 completed
@@ -207,17 +206,17 @@ STK_df_return = STK_df_raw[((STK_df_raw.index >= '2016-06-01') & (STK_df_raw.ind
 * **$i$** is an abstract index for each stock, such that $i \in \{1,2,3,4,5 \} $, representing the 5 stocks in the portfolio
 * Average return For Each Stock:
 $$
-    \mu_i = E[R_i] \\
+    \mu_i = E[R_i]
 $$
 
 * Standard Deviation (Risk)  For Each Stock:
 $$
 
-    \sigma_i = \sqrt{E[(R_i - \mu_i)^2]} \\
+    \sigma_i = \sqrt{E[(R_i - \mu_i)^2]} 
 $$
 * Covariance & Correlation between Stocks: 
 $$
-    Cov[R_i, R_j] = E[(R_i-\mu_i)(R_j-\mu_j)]\\
+    Cov[R_i, R_j] = E[(R_i-\mu_i)(R_j-\mu_j)]
 $$
 $$
     Corr_{ij} (\rho_{ij}) = \frac{Cov[R_i, R_j]}{\sigma_i \sigma_j}
